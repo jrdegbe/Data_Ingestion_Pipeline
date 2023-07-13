@@ -1,8 +1,7 @@
 # Retail Store End-To-End Batch Data-pipeline (ETL) Project
 
-# Author: 👤 **Joshua Omolewa**
 
-## PROJECT OVERVIEW : I designed and developed a data pipeline for a retail store using AWS services. The pipeline collects data from the store's transactional database (OLTP) in Snowflake and transforms the raw data using Apache Spark to meet the business requirements. The pipeline also enables Data Analysts to run SQL queries and create data visualizations using Superset. The batch ETL pipeline is orchestrated using Airflow, an open-source platform to programmatically author, schedule, and monitor workflows.
+## PROJECT OVERVIEW: I designed and developed a data pipeline for a retail store using AWS services. The pipeline collects data from the store's transactional database (OLTP) in Snowflake and transforms the raw data using Apache Spark to meet the business requirements. The pipeline also enables Data Analysts to run SQL queries and create data visualizations using Superset. The batch ETL pipeline is orchestrated using Airflow, an open-source platform to programmatically author, schedule, and monitor workflows.
 
 ##  Project Architecture
 
@@ -125,13 +124,3 @@ ALTER TASK load_data_to_s3 resume;
 
 
 * Finally, I created a docker container that runs superset in an EC2 instance. Superset can be used to create data visualisations  & dashboards  by the Data Analyst. Superset extracts data from Anthena tables, which enables  the Data Analyst to answer any business question. <img src="https://github.com/Joshua-omolewa/end-2-end_data_pipeline_project/blob/main/img/Superset%20finals.jpg"  width="100%" height="100%">
-
-# Follow Me On
-  
-* LinkedIn: [@omolewajoshua](https://www.linkedin.com/in/joshuaomolewa/)  
-* Github: [@joshua-omolewa](https://github.com/Joshua-omolewa)
-
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
